@@ -13,8 +13,30 @@ layout: home
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to My Portfolio</h1>
-    <p>This is a showcase of my work.</p>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p>This is a showcase of my work.</p>
+    </header>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <!-- Your project showcase can go here -->
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <!-- Information about yourself -->
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <!-- Your skills and competencies -->
+    </section>
+
+    <footer>
+        <p>Contact me at email@example.com</p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>

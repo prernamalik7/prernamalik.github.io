@@ -1,13 +1,35 @@
-ECHO is on.
-body {
-    font-family: Arial, sans-serif;
+body, html {
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
     text-align: center;
+    background-color: #f8f9fa;
+    padding: 50px 0;
 }
-h1 {
-    color: #333;
+
+/* Section styles */
+section {
+    padding: 50px 20px;
 }
-p {
-    color: #666;
+
+/* Footer styles */
+footer {
+    text-align: center;
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Styling headings */
+h1, h2 {
+    color: #007bff;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
 }
